@@ -28,12 +28,8 @@ def reverse_array(array)
   end
 end 
 
-def kesha_maker(array, index_number)
-  kesha = []
-  array.each do { |word| word.gsub([2], " ") }
-    kesha << puts array.insert do ([2], "$")
-  end
-  kesha
+def kesha_maker(array)
+  array.each { |changed_char| changed_char[2] = "$"}
 end 
 
 
