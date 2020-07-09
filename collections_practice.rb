@@ -16,11 +16,9 @@ def sort_array_char_count(array)
   end
 end 
 
-#def swap_elements(a, b)
- # a = [1]
- # b = [2]
-  #array[a], array[b] = array[b], array[a]
-#end 
+def swap_elements(array)
+  
+end 
 
 def reverse_array(array)
   array.reverse do |a, b|
