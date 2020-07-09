@@ -31,7 +31,9 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  array.select { |a| a = true }
+  input = "a"
+  match = array.select { |a| a.match(input) }
+  puts match
 end 
 
 def sum_array(array)
