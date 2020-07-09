@@ -32,6 +32,7 @@ end
 
 def find_a(array)
  results = array.select {|item| item.include?("a")}
+ results
 end 
 
 def sum_array(array)
