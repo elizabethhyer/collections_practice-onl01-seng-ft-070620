@@ -31,7 +31,7 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  
+  array.inject(1) { |product, n| product * n }
 end 
 
 def sum_array(array)
