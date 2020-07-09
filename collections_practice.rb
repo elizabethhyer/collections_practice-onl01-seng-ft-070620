@@ -30,6 +30,8 @@ def kesha_maker(array)
   array.each { |changed_char| changed_char[2] = "$"}
 end 
 
+
+
 def sum_array(array)
   sum = 0
   array.each { |a| sum+=a }
