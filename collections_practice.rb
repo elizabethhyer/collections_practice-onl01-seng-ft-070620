@@ -33,7 +33,6 @@ end
 def find_a(array)
   input = "a"
   match = array.select { |a| a.match(input) }
-  puts match
 end 
 
 def sum_array(array)
