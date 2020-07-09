@@ -31,7 +31,7 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
- 
+  array.select { |a| a = true }
 end 
 
 def sum_array(array)
